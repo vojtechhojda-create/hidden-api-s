@@ -1,13 +1,12 @@
-.body{
-  margin: 0;
-  min-height: 100vh;
+body {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #ffffff;
-  box-sizing: border-box;
+  justify-content: center; 
+  align-items: center;     
+  min-height: 100vh;        
   text-align: center;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #404072)
+  
 }
 
 h1{
