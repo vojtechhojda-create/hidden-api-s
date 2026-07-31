@@ -36,3 +36,23 @@ p{
   font-weight: 400;
   font-size: 2.2rem;
 }
+
+.open-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 10px;
+  background-color: transparent;
+  color: azure;
+  border: 2px solid azure;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  font-size: 2.2rem;
+}
+
+.open-btn:hover {
+  background-color: #000000;
+  color: azure;
+  box-shadow: 0 0 15px #000000;
+}
