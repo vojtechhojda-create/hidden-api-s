@@ -51,7 +51,23 @@ p{
   font-size: 2.2rem;
 }
 
-.open-btn:hover {
+
+
+.buttons-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  margin-top: 0;
+}
+
+
+.open-btn:hover,
+.open-btn:active {
+  background-color: #0b192c;
+  color: #ffffff;
+  transform: rotate(7deg);
   background-color: #000000;
   color: azure;
   box-shadow: 0 0 15px #000000;
