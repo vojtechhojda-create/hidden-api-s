@@ -5,8 +5,8 @@ body {
   align-items: center;     
   min-height: 100vh;        
   text-align: center;
-  background: linear-gradient(135deg, #0f0c29, #302b63, #404072)
-  
+  background: linear-gradient(135deg, #0f0c29, #302b63, #404072);
+  color:azure;
 }
 
 h1{
